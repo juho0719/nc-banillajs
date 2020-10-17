@@ -1,0 +1,9 @@
+
+.form,
+.greetings {
+	display: none
+}
+
+.active {
+	display: block;
+}
