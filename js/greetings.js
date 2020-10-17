@@ -34,5 +34,5 @@ function saveName(event) {
 	paintGreeting(input.value);
 }
 
-form.addEventListner("submit", saveName);
+form.addEventListener("submit", saveName);
 init();
