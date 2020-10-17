@@ -1,4 +1,3 @@
-import "../css/style.css";
 
 cosnt form = document.querySelector(".js-form"),
 	input = form.querySelector("input"),
