@@ -1,21 +1,14 @@
 const body = document.querySelector("body");
 
-const IMAGE_NUMBER = 3;
-
-function paintImage(imgNum) {
+function paintImage() {
 	const image = new Image();
-	image.src = `images/${imgNum}.jpg`;
+	image.src = `images/2.jpg`;
 	image.classList.add("bgImage");
 	body.prepend(image);
 }
 
-function genRandom() {
-	return Math.floor(Math.random() * IMAGE_NUMBER);
-}
-
 function init() {
-	const ranNum = getRandom();
-	paintImage(ranNum);
+	paintImage();
 }
 
 init();
