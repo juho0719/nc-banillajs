@@ -1,7 +1,6 @@
 
 body {
 	background-color: #2c3e50;
-	text-align: center;
 	color: white;
 }
 
@@ -16,10 +15,16 @@ body {
 
 .js-clock {
 	font-size: 80px;
+	text-align: center;
 }
 
 .js-greetings {
 	font-size:20px;
+	text-align: center;
+}
+
+.js-toDoForm {
+	padding-top: 30px;
 }
 
 ::placeholder {
@@ -27,11 +32,21 @@ body {
 	text-align: center;
 }
 
+form {
+	text-align: center;
+}
+
 input[type="text"] {
 	font-size:20px;
+	color: white;
 	border: none;
 	outline: none;
 	background: transparent;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
 }
 
 
